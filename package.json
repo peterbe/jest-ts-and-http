@@ -1,0 +1,26 @@
+{
+  "name": "jest-and-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/start.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0",
+    "ts-jest": "29.1.2",
+    "tsx": "4.7.2",
+    "typescript": "5.4.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "globalSetup": "./jest.setup.ts",
+    "globalTeardown": "./jest.teardown.ts"
+  }
+}
