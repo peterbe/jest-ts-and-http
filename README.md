@@ -31,3 +31,22 @@ Just run:
 ```shell
 npm run test
 ```
+
+You'll see:
+
+```shell
+❯ npm run test
+
+> jest-and-ts@1.0.0 test
+> jest
+
+Server running at http://127.0.0.1:3000/
+ PASS  src/server.test.ts
+ PASS  src/server-failures.test.ts
+
+Test Suites: 2 passed, 2 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        1.912 s, estimated 2 s
+Ran all test suites.
+```
