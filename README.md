@@ -1,5 +1,9 @@
 # Using `jest` to start a server for its testing
 
+> [!TIP]
+> See also: <https://github.com/peterbe/vitest-ts-and-http> which is very much
+what this repo contrasts itself with
+
 This is a simulation where you have end-to-end tests that use HTTP
 as part of its tests.
 This is useful when you don't want to *unit test* the server but instead
