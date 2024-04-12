@@ -1,5 +1,5 @@
 import { type Config } from "@jest/types";
-import { main } from "./src/server";
+import { main } from "./server";
 
 async function setUp(
   globalConfig: Config.GlobalConfig,
